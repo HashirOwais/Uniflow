@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button"
 import { useState, useEffect } from "react"
 
 interface HeaderProps {
-  activeTab: "dashboard" | "calendar"
-  onTabChange: (tab: "dashboard" | "calendar") => void
+  activeTab: 'dashboard' | 'calendar';
+  onTabChange: (tab: 'dashboard' | 'calendar') => void;
 }
 
 export function Header({ activeTab, onTabChange }: HeaderProps) {
@@ -64,25 +64,19 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
         <nav className="flex items-center gap-1" aria-label="Main navigation">
           <Button
             variant="ghost"
-            onClick={() => onTabChange("dashboard")}
-            className={`relative text-sm sm:text-base ${
-              activeTab === "dashboard"
-                ? "bg-accent text-accent-foreground"
-                : "hover:bg-accent hover:text-accent-foreground"
-            }`}
-            aria-current={activeTab === "dashboard" ? "page" : undefined}
+            className="relative data-[active=true]:bg-accent data-[active=true]:text-accent-foreground"
+            data-active={activeTab === 'dashboard'}
+            onClick={() => onTabChange('dashboard')}
+            aria-current={activeTab === 'dashboard' ? "page" : undefined}
           >
             Dashboard
           </Button>
           <Button
             variant="ghost"
-            onClick={() => onTabChange("calendar")}
-            className={`relative text-sm sm:text-base ${
-              activeTab === "calendar"
-                ? "bg-accent text-accent-foreground"
-                : "hover:bg-accent hover:text-accent-foreground"
-            }`}
-            aria-current={activeTab === "calendar" ? "page" : undefined}
+            className="relative data-[active=true]:bg-accent data-[active=true]:text-accent-foreground"
+            data-active={activeTab === 'calendar'}
+            onClick={() => onTabChange('calendar')}
+            aria-current={activeTab === 'calendar' ? "page" : undefined}
           >
             Calendar
           </Button>
