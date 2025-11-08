@@ -4,8 +4,8 @@ import { TaskCard } from "@/components/TaskCard"
 import { AddTaskDialog } from "@/components/AddTaskDialog"
 import { tasksApi, eventsApi, groupsApi, type Task as ApiTask, type Event, type Group } from "@/lib/api"
 import type { Task, TaskPriority } from "@/types/task"
-import { format, isAfter, isSameDay, startOfToday } from "date-fns"
-import { Calendar, Clock, CheckCircle2, Circle, ArrowUpDown } from "lucide-react"
+import { format, isSameDay, startOfToday } from "date-fns"
+import { Calendar, Clock, ArrowUpDown } from "lucide-react"
 
 type FilterType = "ALL" | TaskPriority;
 
@@ -241,7 +241,11 @@ export function Dashboard() {
                     <div className="mt-1 flex items-center gap-2 text-sm text-muted-foreground">
                       <Clock className="h-4 w-4" />
                       <span>
-                        {format(new Date(event.startTime), "MMM d, yyyy 'at' h:mm a")} - {format(new Date(event.endTime), "h:mm a")}
+                        {format(new Date(event.startTime), "MMM d, yyyy 'at' h:mm a")} - {
+                          isSameDay(new Date(event.startTime), new Date(event.endTime))
+                            ? format(new Date(event.endTime), "h:mm a")
+                            : format(new Date(event.endTime), "MMM d, yyyy 'at' h:mm a")
+                        }
                       </span>
                     </div>
                     {event.notes && (

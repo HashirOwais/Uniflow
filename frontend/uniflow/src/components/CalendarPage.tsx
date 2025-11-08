@@ -315,7 +315,7 @@ export function CalendarPage() {
   const datesWithTasks = tasks.map(task => new Date(task.deadline))
 
   return (
-    <div className="flex flex-col w-full p-4 sm:p-6 lg:p-8 min-h-full">
+    <div className="flex flex-col w-full p-4 sm:p-6 lg:p-8">
       <div className="w-full flex flex-col">
         {/* Header with buttons */}
         <div className="flex items-center justify-between mb-4 flex-shrink-0">
@@ -342,7 +342,7 @@ export function CalendarPage() {
         {/* Calendar and Events side by side */}
         <div className="flex gap-6 items-start">
           {/* Calendar - takes remaining space */}
-          <div className="flex-1 flex justify-center min-w-0">
+          <div className="flex-1 flex justify-center">
             <Calendar
               mode="single"
               selected={selectedDate}
