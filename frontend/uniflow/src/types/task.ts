@@ -8,6 +8,8 @@ export interface Task {
   priority: TaskPriority;
   course?: string;
   completed: boolean;
+  groupId?: number | null;
+  groupName?: string;
 }
 
 export interface TaskCardProps {

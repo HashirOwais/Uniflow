@@ -118,3 +118,42 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  /* Calendar event/task indicators */
+  .has-events::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(59 130 246);
+  }
+  
+  .has-tasks::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(50%);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(249 115 22);
+  }
+  
+  .has-events.has-tasks::before {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-150%);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(59 130 246);
+  }
+}

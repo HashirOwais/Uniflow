@@ -41,7 +41,10 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo and Brand */}
-        <div className="flex items-center gap-3">
+        <button
+          onClick={() => onTabChange('dashboard')}
+          className="flex items-center gap-3 hover:opacity-80 transition-opacity cursor-pointer"
+        >
           <div className="flex h-10 w-10 items-center justify-center rounded-md bg-primary text-primary-foreground">
             <svg
               width="20"
@@ -58,7 +61,7 @@ export function Header({ activeTab, onTabChange }: HeaderProps) {
             </svg>
           </div>
           <h1 className="text-xl font-bold text-foreground">UniFlow</h1>
-        </div>
+        </button>
 
         {/* Navigation */}
         <nav className="flex items-center gap-1" aria-label="Main navigation">

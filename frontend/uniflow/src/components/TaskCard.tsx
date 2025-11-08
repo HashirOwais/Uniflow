@@ -33,6 +33,11 @@ export function TaskCard({ task, onDelete, onToggleComplete }: TaskCardProps) {
           <span className={`inline-flex rounded-full px-2 py-0.5 text-xs font-medium ${priorityBadgeColors[task.priority]}`}>
             {task.priority}
           </span>
+          {task.groupName && (
+            <span className="rounded bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">
+              {task.groupName}
+            </span>
+          )}
           {task.course && (
             <span className="rounded bg-secondary px-2 py-0.5 text-xs font-medium text-secondary-foreground">
               {task.course}
