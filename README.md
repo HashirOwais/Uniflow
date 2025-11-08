@@ -36,7 +36,7 @@ We followed a clear development methodology focused on modularity and agile prac
     * Enables high reusability and easier maintenance of UI components.
 * **Incremental Development**
     * Developed one component at a time and refined iteratively.
-    * Followed an agile workflow focused on rapid feedback and MVP completion.
+    * Followed iterative development focused workflow for rapid feedback and MVP completion.
 * **Implemented MVC (Model-View-Controller)**
     * **Model:** Prisma ORM managing the SQLite database and all data logic.
     * **View:** The React + Shadcn frontend that handles user interaction and display.
@@ -75,6 +75,7 @@ Initial designs were created using Lofi and Hofi prototypes to map out the user 
 
 * **Authentication**
 * **Implementing Supabase**
+* **Reminders and Push Notifications**
 
 ---
 
