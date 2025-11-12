@@ -21,8 +21,8 @@ To address this challenge, our team developed **UNIFlow**, a productivity tool d
 
 ## Demo
 
+[Watch Demo Video](https://www.youtube.com/watch?v=KPP4JBMkNMA)
 
-[![Demo Video](https://www.youtube.com/watch?v=KPP4JBMkNMA)](https://www.youtube.com/watch?v=KPP4JBMkNMA)
 ---
 
 ## 2. Methodology & Solution
@@ -85,10 +85,9 @@ Initial designs were created using Lofi and Hofi prototypes to map out the user 
 ---
 ## Demo
 
-<div align="center">
+[Watch Demo Video](https://www.youtube.com/watch?v=KPP4JBMkNMA)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KPP4JBMKNMA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+---
 
 ## 8. Installation & Setup
 
