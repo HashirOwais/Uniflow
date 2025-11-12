@@ -82,11 +82,6 @@ Initial designs were created using Lofi and Hofi prototypes to map out the user 
 * **Reminders and Push Notifications**
 
 ---
-## Demo
-
-[Watch Demo Video](https://www.youtube.com/watch?v=KPP4JBMkNMA)
-
----
 
 ## 8. Installation & Setup
 
