@@ -54,7 +54,6 @@ We followed a clear development methodology focused on modularity and agile prac
 
 Initial designs were created using Lofi and Hofi prototypes to map out the user flow, including the main dashboard, task lists, and calendar view.
 
-![Hofi Prototype - Dashboard and Calendar](https://i.imgur.com/gYfIuRk.png)
 
 ---
 
