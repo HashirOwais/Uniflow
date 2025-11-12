@@ -80,7 +80,7 @@ Initial designs were created using Lofi and Hofi prototypes to map out the user 
 
 ## 7. Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KPP4JBMKNMA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Demo Video](https://img.youtube.com/vi/KPP4JBMKNMA/0.jpg)](https://www.youtube.com/watch?v=KPP4JBMKNMA)
 
 ---
 
