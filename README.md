@@ -19,6 +19,12 @@ To address this challenge, our team developed **UNIFlow**, a productivity tool d
 
 ---
 
+## Demo
+
+
+[![Demo Video](https://www.youtube.com/watch?v=KPP4JBMkNMA)](https://www.youtube.com/watch?v=KPP4JBMkNMA)
+---
+
 ## 2. Methodology & Solution
 
 UNIFlow is a web application designed to help students efficiently manage their tasks, deadlines, and schedules through a clean, intuitive, and responsive interface.
@@ -77,12 +83,12 @@ Initial designs were created using Lofi and Hofi prototypes to map out the user 
 * **Reminders and Push Notifications**
 
 ---
+## Demo
 
-## 7. Demo
+<div align="center">
 
-[![Demo Video](https://img.youtube.com/vi/KPP4JBMKNMA/0.jpg)](https://www.youtube.com/watch?v=KPP4JBMKNMA)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KPP4JBMKNMA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 
 ## 8. Installation & Setup
 
