@@ -21,7 +21,7 @@ To address this challenge, our team developed **UNIFlow**, a productivity tool d
 
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KPP4JBMkNMA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![UNIFlow Demo Video](https://img.youtube.com/vi/KPP4JBMkNMA/maxresdefault.jpg)](https://www.youtube.com/watch?v=KPP4JBMkNMA)
 
 ---
 
